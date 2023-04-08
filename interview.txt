@@ -1,0 +1,348 @@
+Questions on Data types==>
+
+Q1.What are the different data types in Python?
+In Python, there are several built-in data types, including:
+
+Integer (int)
+Floating-point number (float)
+Boolean (bool)
+String (str)
+List
+Tuple
+Set
+Dictionary
+
+******************************************************************************************************************
+
+Q2.What is the difference between mutable and immutable data types in Python?
+
+Mutable data types can be changed after creation, while immutable data types cannot.
+For example, lists and dictionaries are mutable, while tuples and strings are immutable.
+
+
+******************************************************************************************************************
+
+
+Q3.What is type casting in Python?
+
+Type casting, also known as type conversion, is the process of changing the data type of
+a value or variable in Python. This can be done using built-in functions such as int(),
+float(), str(), bool(), etc.
+
+
+******************************************************************************************************************
+
+
+Q4.What is the difference between int and float data types?
+
+Integers (int) represent whole numbers, while floating-point numbers (float) represent 
+decimal numbers. Floats have a decimal point and can have fractional parts, while 
+integers do not.
+
+
+******************************************************************************************************************
+
+
+Q5.What is a string in Python?
+
+A string is a sequence of characters enclosed in single or double quotes in Python. 
+Strings are immutable and can be indexed and sliced to extract specific characters or 
+substrings.
+
+
+******************************************************************************************************************
+
+
+Q6.How do you create a tuple in Python?
+
+Tuples can be created in Python using parentheses and separating the values with commas.
+For example: my_tuple = (1, 2, 3).
+
+
+******************************************************************************************************************
+
+
+Q7.What is a dictionary in Python?
+
+A dictionary is a collection of key-value pairs in Python, where each key is associated
+with a value. Dictionaries are mutable and can be accessed, modified, and iterated over
+using built-in functions.
+
+
+******************************************************************************************************************
+
+
+Q8.What is a set in Python?
+
+A set is an unordered collection of unique elements in Python. Sets are mutable and can
+be modified using built-in functions.
+
+
+******************************************************************************************************************
+
+
+Q9.What is the difference between a list and a tuple in Python?
+
+Lists and tuples are both ordered collections of values in Python. 
+The main difference is that lists are mutable, while tuples are immutable. 
+Lists are created using square brackets [], while tuples use parentheses ().
+
+
+******************************************************************************************************************
+
+
+Q10.What is a boolean data type in Python?
+
+A boolean data type in Python represents a binary value of either True or False. 
+Boolean values are typically used in conditional statements and loops to control
+the flow of a program.
+
+
+******************************************************************************************************************
+******************************************************************************************************************
+
+Questions on Operater==>
+
+Q11.Different types of operators in Python:
+
+Arithmetic operators: +, -, *, /, %, //, **
+Comparison operators: ==, !=, >, <, >=, <=
+Logical operators:    and, or, not
+Assignment operators: =, +=, -=, *=, /=, //=, %=, **=
+Bitwise operators:    &, |, ^, ~, <<, >>
+Membership operators: in, not in
+Identity operators:   is, is not
+
+
+******************************************************************************************************************
+
+
+Q12.What is the difference between the == operator and the is operator in Python?
+
+The == operator checks for the equality of values between two objects while the is 
+operator checks for the identity of objects, i.e., whether two objects point to the 
+same memory location. In other words, == checks for value equality while is checks for 
+reference equality.
+
+
+******************************************************************************************************************
+
+
+Q13.What is the use of the and and or operators in Python?
+
+The and and or operators are used for boolean logic. The and operator returns True if 
+both the operands are True, and False otherwise. The or operator returns True if at 
+least one of the operands is True, and False otherwise.
+
+
+******************************************************************************************************************
+
+
+Q14.What is the difference between the / and // operators in Python?
+
+The / operator performs floating-point division, while the // operator performs integer 
+division (floor division). For example, 5/2 returns 2.5, while 5//2 returns 2.
+
+
+******************************************************************************************************************
+
+
+Q15.What is the use of the not operator in Python?
+
+The not operator is used for logical negation. It returns True if the operand is False,
+and False if the operand is True.
+
+
+******************************************************************************************************************
+******************************************************************************************************************
+
+
+Questions on conditional statements
+
+16.What are conditional statements in Python?
+
+Conditional statements in Python are used to perform different actions based on
+different conditions.
+
+
+******************************************************************************************************************
+
+
+Q17.What are the different types of conditional statements in Python?
+
+There are two types of conditional statements in Python:
+
+if statement: used to execute a block of code if a condition is True.
+if-else statement: used to execute a block of code if a condition is True, and 
+another block of code if the condition is False.
+
+
+******************************************************************************************************************
+
+
+Q18.What is the use of the if statement in Python?
+
+The if statement in Python is used to check if a condition is True. If the condition
+is True, then the block of code inside the if statement is executed. If the condition
+is False, then the block of code is skipped.
+
+
+******************************************************************************************************************
+
+
+Q19.What is the use of the else statement in Python?
+
+The else statement is used with an if statement to execute a block of code if the 
+condition in the if statement is False. If the condition in the if statement is True,
+then the block of code inside the else statement is skipped.
+
+
+******************************************************************************************************************
+
+
+Q20.What is the use of the elif statement in Python?
+
+The elif (short for else if) statement is used to check multiple conditions. 
+It is used with an if statement, and if the condition in the if statement is False,
+then the condition in the elif statement is checked. If the condition in the elif 
+statement is True, then the block of code inside the elif statement is executed.
+If the condition in the elif statement is False, then the block of code is skipped 
+and the program moves on to the next elif or else statement (if present).
+
+
+
+******************************************************************************************************************
+******************************************************************************************************************
+
+
+Questions on looping statement==>
+
+Q21.What are looping statements in Python?
+
+Looping statements in Python are used to execute a block of code repeatedly.
+
+
+******************************************************************************************************************
+
+
+Q22.What are the different types of looping statements in Python?
+
+There are two types of looping statements in Python:
+
+for loop: used to iterate over a sequence (such as a list, tuple, or string) and 
+execute a block of code for each item in the sequence.
+while loop: used to execute a block of code repeatedly as long as a condition is True.
+
+
+******************************************************************************************************************
+
+
+Q23.What is the use of the for loop in Python?
+
+The for loop in Python is used to iterate over a sequence (such as a list, tuple, or 
+string) and execute a block of code for each item in the sequence. It can be used with 
+the range function to specify a range of values to iterate over.
+
+
+******************************************************************************************************************
+
+
+Q24.What is the use of the while loop in Python?
+
+The while loop in Python is used to execute a block of code repeatedly as long as a
+condition is True. It can be used to execute a block of code until a certain condition 
+is met.
+
+
+******************************************************************************************************************
+
+
+Q25.How do you terminate a loop in Python?
+
+You can terminate a loop in Python using the break statement. The break statement is
+used to break out of a loop and stop its execution. You can also use the continue 
+statement to skip to the next iteration of a loop without executing the remaining code 
+in the current iteration.
+
+
+
+******************************************************************************************************************
+******************************************************************************************************************
+
+
+Questions on functions==>
+
+Q26.What is a function in Python?
+A function is a block of code that performs a specific task. In Python, you can define
+your own functions and call them whenever needed.
+
+
+******************************************************************************************************************
+
+
+Q27.What is the difference between a built-in function and a user-defined function
+in Python?
+
+Built-in functions are pre-defined functions in Python that can be used without having 
+to define them. Examples include print(), len(), and type(). User-defined functions are
+functions created by the programmer to perform specific tasks.
+
+
+******************************************************************************************************************
+
+
+Q28.How do you define a function in Python?
+You can define a function in Python using the def keyword, followed by the function 
+name and any parameters the function requires. The body of the function is indented 
+below the function definition.
+
+Example:
+
+def my_function(parameter1, parameter2):
+    # code to perform task
+
+
+******************************************************************************************************************
+
+
+Q29.What is a return statement in Python?
+A return statement is used to return a value from a function. When a function is 
+called and reaches a return statement, the function stops executing and returns the
+specified value.
+
+Example:
+
+def add_numbers(num1, num2):
+    sum = num1 + num2
+    return sum
+In this example, the function add_numbers takes two parameters, adds them together, 
+and returns the sum.
+
+
+******************************************************************************************************************
+
+
+Q30.What is a recursive function in Python?
+A recursive function is a function that calls itself within its own code. Recursive 
+functions are useful for solving problems that can be broken down into smaller, 
+simpler versions of the same problem.
+
+Example:
+
+def factorial(num):
+    if num == 0:
+        return 1
+    else:
+        return num * factorial(num - 1)
+In this example, the factorial function is defined recursively. If the input is 0, 
+the function returns 1. Otherwise, it returns the input multiplied by the factorial
+of the input minus 1.
+
+
+******************************************************************************************************************
+***************************************All THE BEST************************************************************************
+******************************************************************************************************************
+****************************************Good Luck*******************************************************************
+******************************************************************************************************************
+******************************************************************************************************************
+
